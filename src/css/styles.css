@@ -29,7 +29,12 @@ img {
 button[data-start],
 button[data-stop] {
   padding: 22px 30px;
+  border-radius: 3px;
 
   font-size:large;
   font-weight: 500;
 }
+/* button[data-start]:is(:hover, :focus),
+button[data-stop]:is(:hover, :focus) {
+  background-color: #8e848472;
+} */
