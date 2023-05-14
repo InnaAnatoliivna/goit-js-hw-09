@@ -19,6 +19,7 @@ img {
 
 /* =========================-01-color-switcher============================= */
 
+
 .btn-wrap {
   display: flex;
   align-items: center;
@@ -38,3 +39,65 @@ button[data-stop] {
 button[data-stop]:is(:hover, :focus) {
   background-color: #8e848472;
 } */
+
+
+/* =========================-02-timer============================= */
+
+.timer-bc {
+background: rgb(221,224,238);
+background: radial-gradient(circle, rgba(221,224,238,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.wrap-datetime {
+  display: flex;
+  gap: 8px;
+  padding: 20px 0;
+  padding-bottom: 20px;
+
+  /* align-items: center; */
+
+  /* min-height: 30px; */
+}
+
+.timer-input {
+  width: 400px;
+  padding-left: 36px;
+  padding-right: 36px;
+
+  font-size: 28px;
+}
+
+.timer {
+  display: flex;
+  gap: 60;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.field {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.value {
+font-size: 50px;
+font-weight: bold;
+
+border-radius: 2px;
+
+}
+.label {
+text-transform: uppercase;
+font-size: 22px;
+font-weight: 500;
+
+border-radius: 2px;
+}
+
+.timer-input,
+.timer-btn {
+  box-shadow: 8px 7px 26px -5px rgba(0,0,0,0.87);
+-webkit-box-shadow: 8px 7px 26px -5px rgba(0,0,0,0.87);
+-moz-box-shadow: 8px 7px 26px -5px rgba(0,0,0,0.87);
+}
