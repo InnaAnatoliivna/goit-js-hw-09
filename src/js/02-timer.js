@@ -57,9 +57,9 @@ function dateCount(getselectedDate) {
             showHours.textContent = `${hours}`.padStart(2, '0');
             showMinutes.textContent = `${minutes}`.padStart(2, '0');
             showSeconds.textContent = `${seconds}`.padStart(2, '0');
+
+            return { days, hours, minutes, seconds };
         }
     }, 1000)
+    
 }
-
-//todo
-//Форматування часу
